@@ -1,0 +1,123 @@
+/* reset */
+
+html {
+    font-family: arial;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* reset end */
+
+header {
+    background: #4182f1 url('../img/logo.png') no-repeat center center;
+    background-size: 2.9rem;
+}
+
+header a {
+    display: block;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+.icon {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+header a:nth-child(1),
+header a:nth-child(2) {
+    float: left;
+}
+
+header a:nth-child(3),
+header a:nth-child(4) {
+    float: right;
+}
+
+nav {
+    background: #4182f1;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: .7rem;
+    text-align: center;
+    margin: 0.3rem 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+}
+
+nav ul li i {
+    display: inline-block;
+    float: right;
+    height: .7rem;
+    border-right: 1px solid #fff;
+}
+
+.news-main .news-lists {
+    margin: .6rem;
+    padding: 0 0 .4rem 0;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.news-main .news-lists h1 {
+    margin: 0.3rem 0;
+    font-size: .75rem;
+}
+
+.news-main .news-lists p {
+    margin: 0;
+}
+
+.news-main .news-lists span {
+    font-size: 0.5rem;
+}
+
+.news-main .news-lists .news-list {
+    display: flex;
+}
+
+.newsimg img {
+    width: 4.6rem;
+}
+
+.newsimg {
+    flex: 1;
+}
+
+.newscontent {
+    flex: 2;
+}
